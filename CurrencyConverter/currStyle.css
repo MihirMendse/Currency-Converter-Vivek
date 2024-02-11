@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("currConvertImg.jpg");
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 8%;
+}
+
+#amount{
+    margin-top: 8%;
+}
+
+input{
+    height: 2rem;
+    border: 0.5px solid lightgrey;
+    outline: none;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.dropdowns{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid lightgrey;
+    border-radius: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+button{
+    padding: 4%;
+    background-color: #C70039;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+img{
+    width: 40%;
+}
+select{
+    border: none;
+    outline: none;
+}
+
+#msg{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+i{
+    margin-top: 5%;
+}
+
+
